@@ -1,0 +1,27 @@
+
+Call:
+glm(formula = default_flag ~ legal_days + log(loan_amount_m) + 
+    cib_status + collateral_type, family = binomial, data = disb)
+
+Coefficients:
+                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)              -2.45024    0.16949 -14.456  < 2e-16 ***
+legal_days                0.05579    0.00374  14.918  < 2e-16 ***
+log(loan_amount_m)        0.23134    0.03830   6.041 1.53e-09 ***
+cib_statusNo_History     -1.55263    0.11533 -13.462  < 2e-16 ***
+cib_statusRegular        -1.72374    0.09846 -17.507  < 2e-16 ***
+cib_statusWatchlist      -0.91436    0.11309  -8.085 6.21e-16 ***
+collateral_typeMachinery  0.86842    0.14237   6.100 1.06e-09 ***
+collateral_typeProperty   0.44821    0.13554   3.307 0.000943 ***
+collateral_typeUnsecured  1.34985    0.13477  10.016  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 10940  on 17031  degrees of freedom
+Residual deviance: 10140  on 17023  degrees of freedom
+AIC: 10158
+
+Number of Fisher Scoring iterations: 5
+

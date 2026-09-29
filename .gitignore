@@ -1,0 +1,6 @@
+.Rproj.user/
+.Rhistory
+.RData
+rsconnect/
+data/sme_loans.sqlite
+data/*.csv

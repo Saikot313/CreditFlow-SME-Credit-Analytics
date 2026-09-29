@@ -1,0 +1,7 @@
+"stage_order","stage","n_events","avg_days","avg_handoff_wait","pct_of_processing_time"
+1,"Sales",24951,2.11,0,10
+2,"Credit",24266,4.31,0.63,19.8
+3,"Risk",22336,3.24,0.64,13.7
+4,"Legal",20496,8.79,0.64,34.1
+5,"Approval",19179,3.21,0.63,11.7
+6,"Disbursement",17787,3.19,0.63,10.7

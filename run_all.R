@@ -1,0 +1,5 @@
+# Run from the project root folder:  source("run_all.R")
+source("01_generate_data.R")
+source("02_pipeline_analytics.R")
+source("03_scorecard_models.R")
+cat("\nDone. Now run: shiny::runApp('shiny_app')\n")

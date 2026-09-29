@@ -1,0 +1,6 @@
+"row","xgb_pd","top_reasons"
+450,0.615,"cib_status = Classified | collateral_type = Unsecured | turnover_m = 7.19"
+921,0.592,"debt_to_turnover = 2.6681 | collateral_type = Unsecured | vintage_yrs = 5"
+786,0.528,"debt_to_turnover = 1.6301 | collateral_type = Unsecured | vintage_yrs = 3"
+536,0.522,"cib_status = Watchlist | collateral_type = Unsecured | turnover_m = 6.73"
+77,0.49,"cib_status = Watchlist | collateral_type = Unsecured | vintage_yrs = 4"
